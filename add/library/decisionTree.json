@@ -1,0 +1,27 @@
+{
+    "nodes": [
+      {"id": "A", "label": "Start Game"},
+      {"id": "B", "label": "Ball Out of Field?"},
+      {"id": "C", "label": "Yes - Call Corner or Throw-In"},
+      {"id": "D", "label": "No - Play Ball"},
+      {"id": "E", "label": "Right Corner or Left Corner?"},
+      {"id": "F", "label": "Foul?"},
+      {"id": "G", "label": "Yes - Call Free Kick or Penalty"},
+      {"id": "H", "label": "No - Check Kickoff Done"},
+      {"id": "I", "label": "Kickoff Done?"},
+      {"id": "J", "label": "Yes - Continue Game"},
+      {"id": "K", "label": "No - Call Kickoff"}
+    ],
+    "edges": [
+      {"source": "A", "target": "B"},
+      {"source": "B", "target": "C", "label": "Yes"},
+      {"source": "B", "target": "D", "label": "No"},
+      {"source": "D", "target": "E"},
+      {"source": "E", "target": "F", "label": "Yes"},
+      {"source": "E", "target": "G", "label": "No"},
+      {"source": "G", "target": "H"},
+      {"source": "H", "target": "I", "label": "Yes"},
+      {"source": "H", "target": "J", "label": "No"}
+    ]
+  }
+  
