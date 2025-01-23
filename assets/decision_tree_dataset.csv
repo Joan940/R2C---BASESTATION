@@ -1,0 +1,9 @@
+Posisi Lawan,Jarak Lawan,Luas Area Bebas,Kecepatan Robot,Orientasi Robot,Jumlah Lawan Terdekat,Keputusan
+Depan,Dekat,Sempit,Cepat,Tegak,Banyak,Menghindar
+Kiri,Jauh,Luas,Lambat,Miring,Sedikit,Tetap
+Kanan,Dekat,Sempit,Cepat,Tegak,Banyak,Menghindar
+Belakang,Jauh,Luas,Lambat,Miring,Sedikit,Tetap
+Depan,Dekat,Luas,Cepat,Tegak,Banyak,Menghindar
+Kiri,Jauh,Sempit,Lambat,Miring,Sedikit,Tetap
+Kanan,Dekat,Luas,Cepat,Tegak,Banyak,Menghindar
+Belakang,Jauh,Sempit,Lambat,Miring,Sedikit,Tetap
