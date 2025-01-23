@@ -1,0 +1,3 @@
+# Github.com server
+Host github.com
+IdentityFile ~/.ssh/joan
